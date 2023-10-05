@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+<style>
+body {
+    background: #020202;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+}
+canvas{display: block;}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 4em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h2 {
+    color: yellow;
+    text-transform: initial;
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-family: "Source Sans Pro";
+    font-size: 3em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+button {
+    background-color: yellow;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF00FF;
+    font-family: "Source Sans Pro";
+    font-size: 2em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+    #main {
+        visibility: hidden;
+    }
+    #box {
+        visibility: hidden;
+      }
+      #one {
+        visibility: hidden;
+      }
+</style>
+</head>
+<body>
+    <canvas id="birthday"></canvas>
+    <center>
+        <div id="box"><pre><h2>It's time for celebrations</h2></pre></div>
+        <div id="one"><button onclick="window.location.href = '2p.html';">Let's Celebrate</button></div>
+        <div id="main"><h1>Hello</h1></div>
+        <script src="first.js"></script>
+    </center>
+</body>
+</html>
